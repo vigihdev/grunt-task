@@ -1,12 +1,10 @@
-# exclude everything except directory
-
+# .gitignore yang benar untuk project Grunt
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 .DS_Store
-/.amazonq
-/.cursor
-/.git
-/.vscode
-GEMINI.md
-/node_modules
-package-lock.json
-/nodemon.js
-/dev.js
+*.log
+.cache/
+.idea/
+.vscode/
