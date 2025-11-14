@@ -1,0 +1,44 @@
+{
+    "name": "@vigihdev/grunt-task",
+    "version": "0.1.0-dev",
+    "description": "Toolkit untuk memproses themes, styles, dan komponen berbasis Grunt",
+    "main": "index.js",
+    "author": "vigihdev",
+    "license": "MIT",
+    "keywords": [
+        "themes",
+        "styles",
+        "bootstrap",
+        "grunt",
+        "build-tools",
+        "vigihdev"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vigihdev/grunt-tasks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vigihdev/grunt-tasks/issues"
+    },
+    "homepage": "https://github.com/vigihdev/grunt-tasks",
+    "scripts": {
+        "dev": "nodemon dev.js"
+    },
+    "dependencies": {
+        "@types/vigihdev": "github:vigihdev/types",
+        "dotenv": "^17.2.3",
+        "grunt": "^1.6.1",
+        "grunt-banner": "^0.6.0",
+        "grunt-concat-css": "^0.3.2",
+        "grunt-contrib-concat": "^2.1.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^5.0.0",
+        "grunt-contrib-sass": "^2.0.0",
+        "grunt-contrib-uglify": "^5.2.2",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-run": "^0.8.1",
+        "grunt-sass": "^4.0.0",
+        "grunt-shell": "^4.0.0",
+        "grunt-strip-css-comments": "^1.3.0"
+    }
+}

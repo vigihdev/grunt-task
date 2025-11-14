@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "paths": {
+            "*": [
+                "./node_modules/@types",
+            ],
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+        "checkJs": false,
+        "allowJs": true
+    },
+}
